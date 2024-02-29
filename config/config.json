@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "important-links-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/importantLinks/ImportantLinksWebPart.js",
+          "manifest": "./src/webparts/importantLinks/ImportantLinksWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ImportantLinksWebPartStrings": "lib/webparts/importantLinks/loc/{locale}.js"
+  }
+}
